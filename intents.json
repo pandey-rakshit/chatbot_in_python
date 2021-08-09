@@ -1,0 +1,181 @@
+{"intents": [
+        {
+	"tag": "greeting",
+         "patterns": [
+			"Hi", 
+			"Is anyone there?", 
+			"Hello",  
+			"Whats up"
+	],
+         
+	"responses": [
+			"Hello!",
+ 			"Good to see you again!", 
+			"Hi there!, how can I help?"
+	],
+	
+         "context_set": ""
+        
+	},
+
+        {
+	 "tag": "goodbye",
+         "patterns": [
+			"cya",
+			"bye", 
+			"See you later", 
+			"Goodbye", 
+			"I am Leaving", 
+			"Have a Good day"
+	],
+        
+	 "responses": [
+			"Sad to see you go :(",
+			"Talk to you later", 
+			"Goodbye!"
+	],
+        
+	 "context_set": ""
+        
+	},
+	
+        {
+	 "tag": "age",
+         "patterns": [
+			"how old", 
+			"how old is Rex!", 
+			"what is your age", 
+			"how old are you", 
+			"age?"
+	],
+	
+         "responses": [
+			"I am 20 years old!", 
+			"20 years young!"
+	],
+
+         "context_set": ""
+      
+ 	 },
+
+        {
+	 "tag": "name",
+         "patterns": [	
+			"Tell me about your self.",
+			"what is your name", 
+			"what should I call you", 
+			"whats your name?"
+	],
+         
+	"responses": [
+			"You can call me Rex.",
+			"I'm Rex!", 
+			"I'm Rex aka your Personal Assistant."
+	],
+	
+         "context_set": ""
+
+        },
+	
+        {
+	 "tag": "work",
+         "patterns": [
+			"how to pass the day", 
+			"whats on the menu", 
+			"what do you reccommend?", 
+			"could i get something for work",
+			"Iam free"
+	],
+
+         "responses": [
+			"could solve some python problem", 
+			"you can use some time to upgrade me..",
+			"Iam also free!, could have some Talk",
+			"Check your mail.",
+			"let's Code in Hackerrank."
+	],
+
+         "context_set": ""
+
+        },
+
+        {
+	"tag": "Problems",
+         "patterns": [
+			"could you help me in finding a suitable problem!",
+			"let's code",
+                        "do you find me a problem",
+                        "find me some problem to code"
+	],
+         "responses": [
+			"yes! sure, how about this : GeeksForGeeks",
+			"yes! sure, how about this : Leetcode",
+			"yes! sure, how about this : Hackerrank" 
+	
+        ],
+        
+	 "context_set":""
+        
+        },
+
+        {
+	 "tag": "jokes",
+         "patterns": [
+			"feeling bored",
+			"tell me a joke",
+			"do you know any jokes",
+			"jokes",
+			"hey do you know laughter is a good medicine",
+			"make me laugh"
+	],
+         "responses": [
+			"Let me thing for a moment... \n You need a joke \n got it \n here is one : \n I Am So Famous......\n When I Go To The Mall...... \n The Door Opens Itself...."
+			
+	],
+         "context_set":""
+       
+	},
+	
+	{
+	 "tag": "help",
+         "patterns": [
+			"Help",
+			"Help Needed",
+			"can you help me",
+			"i need help"
+	],
+         "responses": [
+			"yes! I am here",
+			"what do you need",
+			"What do you need?",
+			"No problem"
+	],
+
+         "context_set":""
+       
+	},
+
+	{
+	 "tag": "Questions",
+         "patterns": [
+			"can i ask you something",
+			"here is a question",
+			"question trouble",
+			"question",
+			"Can I ask you a question?"
+
+	],
+         "responses": [
+			"yes! I am here",
+			"Go ahead and ask.",
+			"whats the question",
+			"what is your question",
+			"you have 5 mint! ask anything you want!"
+	],
+
+         "context_set":""
+       
+	}
+	
+   ]
+}
